@@ -63,7 +63,7 @@ public abstract class Pokemon {
     }
     public void minHp() {
         if (hp == 0){
-            System.out.println(name + ": Ik slaap nu.");
+            System.out.println(name + ": Ik slaap nu...");
         } else {
             hp = hp - 10;
         }

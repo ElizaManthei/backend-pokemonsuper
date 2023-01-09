@@ -37,7 +37,7 @@ public class WaterPokemon extends Pokemon{
 
 public void temperatureCheck(){
         if (temperatureOfWater <= 0){
-            System.out.println("I am cold");
+            System.out.println("I am ice");
         } else if (temperatureOfWater >= 100) {
             System.out.println("I am warm, too warm...");
         } else {

@@ -38,7 +38,7 @@ public class  ElectricPokemon extends Pokemon{
         }
     }
     public void acOrDcCheck() {
-        System.out.println("I'm " + acOrDc);
+        System.out.println("I'm " + acOrDc + ".");
     }
     @Override
     public void whoIAm() {

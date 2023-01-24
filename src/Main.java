@@ -6,7 +6,7 @@ public class Main {
 
         FirePokemon firePokemon = new FirePokemon("Flame", 1, 100, 90, 55, "wood");
         WaterPokemon waterPokemon = new WaterPokemon("Torrent",2,30,10,500,60);
-        GrassPokemon grassPokemon = new GrassPokemon("Pampas",1,50,40,135,"green");
+        GrassPokemon grassPokemon = new GrassPokemon("Pampas",3,50,40,135,"green");
         ElectricPokemon electricPokemon = new ElectricPokemon("Elec", 1,80,30,220,"DC");
 
         firePokemon.whoIAm();

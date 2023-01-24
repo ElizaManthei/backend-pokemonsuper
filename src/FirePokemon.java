@@ -47,7 +47,7 @@ public class FirePokemon extends Pokemon{
         if (pokemon instanceof WaterPokemon ){
             super.setHp(0);
             pokemon.addXp();
-            System.out.println("I lost with " + pokemon.name);
+            System.out.println("I lost with " + pokemon.name + " :(");
 
         } else if (pokemon instanceof GrassPokemon){
             super.addXp();

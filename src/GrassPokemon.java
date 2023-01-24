@@ -35,7 +35,7 @@ public void colorChange() {
     switch (color) {
         case "red" -> {
             color = "yellow";
-            System.out.println(ANSI_YELLOW + "I'm calming down" + ANSI_RESET);
+            System.out.println(ANSI_YELLOW + "I'm calming down..." + ANSI_RESET);
             break;
         }
         case "green" -> {
